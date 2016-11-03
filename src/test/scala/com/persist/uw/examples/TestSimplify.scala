@@ -6,7 +6,7 @@ class TestSimplify extends mutable.Specification {
 
   import Simplify.simplify
 
-  "add3 adds two trees representing integers together" >> {
+  "add3 adds two simple trees" >> {
     val tree1 = Int3(4) // 4
     val tree2 = Int3(2) // 2
     val addTree = Add3(tree1, tree2)
@@ -14,13 +14,33 @@ class TestSimplify extends mutable.Specification {
     s mustEqual Int3(6)
   }
 
-  "add3 adds a nested trees" >> {
+  "add3 adds nested trees" >> {
     val tree1 = Int3(4) // 4
     val tree2 = Int3(2) // 2
     val addTree = Add3(Add3(Add3(tree1,tree1), Add3(tree1,tree1)), Add3(tree2, tree2)) // 4+4+4+4+2+2=20
     val s = simplify(addTree)
     s mustEqual Int3(20)
   }
+
+  "subtract2 subtracts two simple trees" >> {
+    val tree1 = Int3(4) // 4
+    val tree2 = Int3(2) // 2
+    val subTree = Subtract3(tree1, tree2) // "tree1 - tree2"
+    val s = simplify(subTree)
+    s mustEqual Int3(2)
+  }
+
+  "subtract subtracts nested subtract trees" >> {
+    val t1 = Int3(4) // 4
+    val t2 = Int3(2) // 2
+    val nestedSubTree = Subtract3(t1,Subtract3(Subtract3(t1,t2), Subtract3(t2,t1))) // 4-((4-2)-(2-4))=4-(2-(-2))=4-4=0
+    val s = simplify(nestedSubTree)
+    s mustEqual Int3(0)
+  }
+
+//  "subtract subtracts nested mixed add/subtract trees" >> {
+//
+//  }
 
   "add0" >> {
     val t1 = Add3(Name3("b"), Int3(0)) // b + 0 = b
