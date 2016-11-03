@@ -28,41 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Tree3.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/persist/uw/examples/Tree3.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestTree3.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/persist/uw/examples/TestTree3.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestSimplify.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestSimplify.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/persist/uw/examples/TestSimplify.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="225">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Simplify.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Simplify.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/persist/uw/examples/Simplify.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="210">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -81,8 +61,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/persist/uw/examples/Tree1.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/persist/uw/examples/TestTree1.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/persist/uw/examples/TestTree3.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/persist/uw/examples/TestSimplify.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/persist/uw/examples/Simplify.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/persist/uw/examples/TestSimplify.scala" />
       </list>
     </option>
   </component>
@@ -263,37 +243,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Specs2.TestSimplify">
-    <configuration default="false" name="com.persist.uw.examples.TestTree1::Name1 is a tree's name" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="assign3" />
-      <setting name="path" value="com.persist.uw.examples.TestTree1" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="Name1 is a tree's name" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="com.persist.uw.examples.TestTree1::Add1 adds two trees together, but I don't know which comes out on top" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="assign3" />
-      <setting name="path" value="com.persist.uw.examples.TestTree1" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="Add1 adds two trees together, but I don't know which comes out on top" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Specs2.com.persist.uw.examples.TestSimplify::add3 adds a nested trees">
     <configuration default="false" name="TestSimplify" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="assign3" />
@@ -334,6 +284,36 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="add3 adds two trees together" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="com.persist.uw.examples.TestSimplify::add3 adds a nested add" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="assign3" />
+      <setting name="path" value="com.persist.uw.examples.TestSimplify" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="add3 adds a nested add" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="com.persist.uw.examples.TestSimplify::add3 adds a nested trees" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="assign3" />
+      <setting name="path" value="com.persist.uw.examples.TestSimplify" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="add3 adds a nested trees" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -629,19 +609,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestTree1::Name1 is a tree's name" />
-      <item index="1" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestTree1::Add1 adds two trees together, but I don't know which comes out on top" />
-      <item index="2" class="java.lang.String" itemvalue="Specs2.TestSimplify" />
-      <item index="3" class="java.lang.String" itemvalue="Specs2.TestTree3" />
-      <item index="4" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::add3 adds two trees together" />
+      <item index="0" class="java.lang.String" itemvalue="Specs2.TestSimplify" />
+      <item index="1" class="java.lang.String" itemvalue="Specs2.TestTree3" />
+      <item index="2" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::add3 adds two trees together" />
+      <item index="3" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::add3 adds a nested add" />
+      <item index="4" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::add3 adds a nested trees" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Specs2.TestSimplify" />
-        <item index="1" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::add3 adds two trees together" />
-        <item index="2" class="java.lang.String" itemvalue="Specs2.TestTree3" />
-        <item index="3" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestTree1::Add1 adds two trees together, but I don't know which comes out on top" />
-        <item index="4" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestTree1::Name1 is a tree's name" />
+        <item index="0" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::add3 adds a nested trees" />
+        <item index="1" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::add3 adds a nested add" />
+        <item index="2" class="java.lang.String" itemvalue="Specs2.TestSimplify" />
+        <item index="3" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::add3 adds two trees together" />
+        <item index="4" class="java.lang.String" itemvalue="Specs2.TestTree3" />
       </list>
     </recent_temporary>
   </component>
@@ -696,40 +676,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSimplify - 2016.11.02 at 21h 47m 40s.xml">
-      <configuration name="TestSimplify" configurationId="Specs2RunConfiguration" />
-    </history-entry>
     <history-entry file="TestSimplify - 2016.11.02 at 22h 28m 44s.xml">
       <configuration name="TestSimplify" configurationId="Specs2RunConfiguration" />
     </history-entry>
-    <history-entry file="TestTree3 - 2016.11.02 at 21h 50m 05s.xml">
-      <configuration name="TestTree3" configurationId="Specs2RunConfiguration" />
+    <history-entry file="com_persist_uw_examples_TestSimplify__add3_adds_a_nested_add - 2016.11.03 at 11h 37m 08s.xml">
+      <configuration name="com.persist.uw.examples.TestSimplify::add3 adds a nested add" configurationId="Specs2RunConfiguration" />
     </history-entry>
-    <history-entry file="com_persist_uw_examples_TestSimplify__add3_adds_two_trees_together - 2016.11.02 at 22h 08m 44s.xml">
-      <configuration name="com.persist.uw.examples.TestSimplify::add3 adds two trees together" configurationId="Specs2RunConfiguration" />
+    <history-entry file="com_persist_uw_examples_TestSimplify__add3_adds_a_nested_add - 2016.11.03 at 11h 42m 12s.xml">
+      <configuration name="com.persist.uw.examples.TestSimplify::add3 adds a nested add" configurationId="Specs2RunConfiguration" />
     </history-entry>
-    <history-entry file="com_persist_uw_examples_TestSimplify__add3_adds_two_trees_together - 2016.11.02 at 22h 09m 29s.xml">
-      <configuration name="com.persist.uw.examples.TestSimplify::add3 adds two trees together" configurationId="Specs2RunConfiguration" />
+    <history-entry file="com_persist_uw_examples_TestSimplify__add3_adds_a_nested_add - 2016.11.03 at 11h 45m 32s.xml">
+      <configuration name="com.persist.uw.examples.TestSimplify::add3 adds a nested add" configurationId="Specs2RunConfiguration" />
     </history-entry>
-    <history-entry file="com_persist_uw_examples_TestSimplify__add3_adds_two_trees_together - 2016.11.02 at 22h 15m 07s.xml">
-      <configuration name="com.persist.uw.examples.TestSimplify::add3 adds two trees together" configurationId="Specs2RunConfiguration" />
+    <history-entry file="com_persist_uw_examples_TestSimplify__add3_adds_a_nested_add - 2016.11.03 at 11h 46m 09s.xml">
+      <configuration name="com.persist.uw.examples.TestSimplify::add3 adds a nested add" configurationId="Specs2RunConfiguration" />
     </history-entry>
-    <history-entry file="com_persist_uw_examples_TestSimplify__add3_adds_two_trees_together - 2016.11.02 at 22h 16m 03s.xml">
-      <configuration name="com.persist.uw.examples.TestSimplify::add3 adds two trees together" configurationId="Specs2RunConfiguration" />
+    <history-entry file="com_persist_uw_examples_TestSimplify__add3_adds_a_nested_add - 2016.11.03 at 11h 47m 36s.xml">
+      <configuration name="com.persist.uw.examples.TestSimplify::add3 adds a nested add" configurationId="Specs2RunConfiguration" />
+    </history-entry>
+    <history-entry file="com_persist_uw_examples_TestSimplify__add3_adds_a_nested_trees - 2016.11.03 at 11h 48m 01s.xml">
+      <configuration name="com.persist.uw.examples.TestSimplify::add3 adds a nested trees" configurationId="Specs2RunConfiguration" />
+    </history-entry>
+    <history-entry file="com_persist_uw_examples_TestSimplify__add3_adds_a_nested_trees - 2016.11.03 at 11h 48m 36s.xml">
+      <configuration name="com.persist.uw.examples.TestSimplify::add3 adds a nested trees" configurationId="Specs2RunConfiguration" />
+    </history-entry>
+    <history-entry file="com_persist_uw_examples_TestSimplify__add3_adds_a_nested_trees - 2016.11.03 at 11h 51m 13s.xml">
+      <configuration name="com.persist.uw.examples.TestSimplify::add3 adds a nested trees" configurationId="Specs2RunConfiguration" />
     </history-entry>
     <history-entry file="com_persist_uw_examples_TestSimplify__add3_adds_two_trees_together - 2016.11.02 at 22h 19m 08s.xml">
       <configuration name="com.persist.uw.examples.TestSimplify::add3 adds two trees together" configurationId="Specs2RunConfiguration" />
     </history-entry>
-    <history-entry file="com_persist_uw_examples_TestTree1__Add1_adds_two_trees_together,_but_I_don't_know_which_comes_out_on_top - 2016.11.02 at 21h 41m 47s.xml">
-      <configuration name="com.persist.uw.examples.TestTree1::Add1 adds two trees together, but I don't know which comes out on top" configurationId="Specs2RunConfiguration" />
-    </history-entry>
-    <history-entry file="com_persist_uw_examples_TestTree1__Add1_adds_two_trees_together,_but_I_don't_know_which_comes_out_on_top - 2016.11.02 at 21h 42m 08s.xml">
-      <configuration name="com.persist.uw.examples.TestTree1::Add1 adds two trees together, but I don't know which comes out on top" configurationId="Specs2RunConfiguration" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="40" width="1129" height="733" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -772,7 +752,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/persist/uw/examples/Simplify.scala</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -831,22 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/persist/uw/examples/Tree3.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/persist/uw/examples/TestTree3.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2-matcher_2.11/srcs/specs2-matcher_2.11-3.8.5-sources.jar!/org/specs2/matcher/MustExpectations.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -863,18 +835,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/persist/uw/examples/Simplify.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/persist/uw/examples/TestTree3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/persist/uw/examples/Tree3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/persist/uw/examples/TestSimplify.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        <state relative-caret-position="225">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/persist/uw/examples/Simplify.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding />
         </state>
       </provider>

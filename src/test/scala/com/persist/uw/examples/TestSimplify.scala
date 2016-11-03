@@ -14,6 +14,14 @@ class TestSimplify extends mutable.Specification {
     s mustEqual Int3(6)
   }
 
+  "add3 adds a nested trees" >> {
+    val tree1 = Int3(4) // 4
+    val tree2 = Int3(2) // 2
+    val addTree = Add3(Add3(Add3(tree1,tree1), Add3(tree1,tree1)), Add3(tree2, tree2)) // 4+4+4+4+2+2=20
+    val s = simplify(addTree)
+    s mustEqual Int3(20)
+  }
+
   "add0" >> {
     val t1 = Add3(Name3("b"), Int3(0)) // b + 0 = b
     val t2 = Add3(Int3(0), Name3("b")) // 0 + b = b
