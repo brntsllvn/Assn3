@@ -7,13 +7,13 @@ sealed trait Tree1 {
   def depth: Int
 }
 
-case class Int1(i: Int) extends Tree1 {
+case class Int1(i: Int) extends Tree1 { // head element ...?
   def size = 1
 
   def depth = 1
 }
 
-case class Name1(name: String) extends Tree1 {
+case class Name1(name: String) extends Tree1 { // tree name
   def size = 1
 
   def depth = 1
