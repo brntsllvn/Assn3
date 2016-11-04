@@ -38,9 +38,13 @@ class TestSimplify extends mutable.Specification {
     s mustEqual Int3(0)
   }
 
-//  "subtract subtracts nested mixed add/subtract trees" >> {
-//
-//  }
+  "subtract subtracts nested mixed add/subtract trees" >> {
+    val t1 = Int3(10)
+    val t2 = Int3(3)
+    val agg = Subtract3(Add3(t1,t2),Add3(t2,t1))
+    val s = simplify(agg)
+    s mustEqual Int3(0)
+  }
 
   "add0" >> {
     val t1 = Add3(Name3("b"), Int3(0)) // b + 0 = b
