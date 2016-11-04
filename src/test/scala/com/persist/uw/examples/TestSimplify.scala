@@ -62,6 +62,22 @@ class TestSimplify extends mutable.Specification {
     s mustEqual Int3(420)
   }
 
+  "divide handles two simple ints" >> {
+    val tree1 = Int3(10)
+    val tree2 = Int3(3)
+    val agg = Divide3(tree1, tree2)
+    val s = simplify(agg)
+    s mustEqual Int3(3)
+  }
+
+  "divide handles nested stuff" >> {
+    val t1 = Int3(10)
+    val t2 = Int3(3)
+    val agg = Divide3(Multiply3(Divide3(t1,t2),Int3(10)), Add3(Int3(1),Int3(1)))
+    val s = simplify(agg)
+    s mustEqual Int3(15)
+  }
+
   "add0" >> {
     val t1 = Add3(Name3("b"), Int3(0)) // b + 0 = b
     val t2 = Add3(Int3(0), Name3("b")) // 0 + b = b

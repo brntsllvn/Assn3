@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/scala/com/persist/uw/examples/TestSimplify.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+              <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -41,8 +41,8 @@
       <file leaf-file-name="Simplify.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/persist/uw/examples/Simplify.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="270">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -243,37 +243,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Specs2.com.persist.uw.examples.TestSimplify::multiply handles nested stuff">
-    <configuration default="false" name="com.persist.uw.examples.TestSimplify::subtract2 subtracts two simple trees" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="assign3" />
-      <setting name="path" value="com.persist.uw.examples.TestSimplify" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="subtract2 subtracts two simple trees" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="com.persist.uw.examples.TestSimplify::subtract subtracts nested subtract trees" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="assign3" />
-      <setting name="path" value="com.persist.uw.examples.TestSimplify" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="subtract subtracts nested subtract trees" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Specs2.com.persist.uw.examples.TestSimplify::divide handles nested stuff">
     <configuration default="false" name="com.persist.uw.examples.TestSimplify::subtract subtracts nested mixed add/subtract trees" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="assign3" />
@@ -314,6 +284,36 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="multiply handles nested stuff" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="com.persist.uw.examples.TestSimplify::divide handles two simple ints" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="assign3" />
+      <setting name="path" value="com.persist.uw.examples.TestSimplify" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="divide handles two simple ints" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="com.persist.uw.examples.TestSimplify::divide handles nested stuff" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="assign3" />
+      <setting name="path" value="com.persist.uw.examples.TestSimplify" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="divide handles nested stuff" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -609,19 +609,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::subtract2 subtracts two simple trees" />
-      <item index="1" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::subtract subtracts nested subtract trees" />
-      <item index="2" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::subtract subtracts nested mixed add/subtract trees" />
-      <item index="3" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::multiply multiplies two simple ints" />
-      <item index="4" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::multiply handles nested stuff" />
+      <item index="0" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::subtract subtracts nested mixed add/subtract trees" />
+      <item index="1" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::multiply multiplies two simple ints" />
+      <item index="2" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::multiply handles nested stuff" />
+      <item index="3" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::divide handles two simple ints" />
+      <item index="4" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::divide handles nested stuff" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::multiply handles nested stuff" />
-        <item index="1" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::multiply multiplies two simple ints" />
-        <item index="2" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::subtract subtracts nested mixed add/subtract trees" />
-        <item index="3" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::subtract subtracts nested subtract trees" />
-        <item index="4" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::subtract2 subtracts two simple trees" />
+        <item index="0" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::divide handles nested stuff" />
+        <item index="1" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::divide handles two simple ints" />
+        <item index="2" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::multiply handles nested stuff" />
+        <item index="3" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::multiply multiplies two simple ints" />
+        <item index="4" class="java.lang.String" itemvalue="Specs2.com.persist.uw.examples.TestSimplify::subtract subtracts nested mixed add/subtract trees" />
       </list>
     </recent_temporary>
   </component>
@@ -676,6 +676,21 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="com_persist_uw_examples_TestSimplify__divide_handles_nested_stuff - 2016.11.04 at 16h 44m 12s.xml">
+      <configuration name="com.persist.uw.examples.TestSimplify::divide handles nested stuff" configurationId="Specs2RunConfiguration" />
+    </history-entry>
+    <history-entry file="com_persist_uw_examples_TestSimplify__divide_handles_nested_stuff - 2016.11.04 at 16h 45m 01s.xml">
+      <configuration name="com.persist.uw.examples.TestSimplify::divide handles nested stuff" configurationId="Specs2RunConfiguration" />
+    </history-entry>
+    <history-entry file="com_persist_uw_examples_TestSimplify__divide_handles_nested_stuff - 2016.11.04 at 16h 46m 18s.xml">
+      <configuration name="com.persist.uw.examples.TestSimplify::divide handles nested stuff" configurationId="Specs2RunConfiguration" />
+    </history-entry>
+    <history-entry file="com_persist_uw_examples_TestSimplify__divide_handles_two_simple_ints - 2016.11.04 at 16h 40m 41s.xml">
+      <configuration name="com.persist.uw.examples.TestSimplify::divide handles two simple ints" configurationId="Specs2RunConfiguration" />
+    </history-entry>
+    <history-entry file="com_persist_uw_examples_TestSimplify__divide_handles_two_simple_ints - 2016.11.04 at 16h 41m 38s.xml">
+      <configuration name="com.persist.uw.examples.TestSimplify::divide handles two simple ints" configurationId="Specs2RunConfiguration" />
+    </history-entry>
     <history-entry file="com_persist_uw_examples_TestSimplify__multiply_handles_nested_stuff - 2016.11.03 at 17h 39m 55s.xml">
       <configuration name="com.persist.uw.examples.TestSimplify::multiply handles nested stuff" configurationId="Specs2RunConfiguration" />
     </history-entry>
@@ -688,23 +703,8 @@
     <history-entry file="com_persist_uw_examples_TestSimplify__multiply_multiplies_two_simple_ints - 2016.11.03 at 17h 30m 19s.xml">
       <configuration name="com.persist.uw.examples.TestSimplify::multiply multiplies two simple ints" configurationId="Specs2RunConfiguration" />
     </history-entry>
-    <history-entry file="com_persist_uw_examples_TestSimplify__subtract_subtracts_nested_mixed_add_subtract_trees - 2016.11.03 at 17h 20m 45s.xml">
-      <configuration name="com.persist.uw.examples.TestSimplify::subtract subtracts nested mixed add/subtract trees" configurationId="Specs2RunConfiguration" />
-    </history-entry>
-    <history-entry file="com_persist_uw_examples_TestSimplify__subtract_subtracts_nested_mixed_add_subtract_trees - 2016.11.03 at 17h 23m 44s.xml">
-      <configuration name="com.persist.uw.examples.TestSimplify::subtract subtracts nested mixed add/subtract trees" configurationId="Specs2RunConfiguration" />
-    </history-entry>
-    <history-entry file="com_persist_uw_examples_TestSimplify__subtract_subtracts_nested_mixed_add_subtract_trees - 2016.11.03 at 17h 25m 24s.xml">
-      <configuration name="com.persist.uw.examples.TestSimplify::subtract subtracts nested mixed add/subtract trees" configurationId="Specs2RunConfiguration" />
-    </history-entry>
-    <history-entry file="com_persist_uw_examples_TestSimplify__subtract_subtracts_nested_mixed_add_subtract_trees - 2016.11.03 at 17h 25m 34s.xml">
-      <configuration name="com.persist.uw.examples.TestSimplify::subtract subtracts nested mixed add/subtract trees" configurationId="Specs2RunConfiguration" />
-    </history-entry>
     <history-entry file="com_persist_uw_examples_TestSimplify__subtract_subtracts_nested_mixed_add_subtract_trees - 2016.11.03 at 17h 26m 06s.xml">
       <configuration name="com.persist.uw.examples.TestSimplify::subtract subtracts nested mixed add/subtract trees" configurationId="Specs2RunConfiguration" />
-    </history-entry>
-    <history-entry file="com_persist_uw_examples_TestSimplify__subtract_subtracts_nested_subtract_trees - 2016.11.03 at 12h 09m 01s.xml">
-      <configuration name="com.persist.uw.examples.TestSimplify::subtract subtracts nested subtract trees" configurationId="Specs2RunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -861,8 +861,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/persist/uw/examples/Simplify.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="270">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -870,7 +870,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/persist/uw/examples/TestSimplify.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
           <folding />
         </state>
       </provider>
