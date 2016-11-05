@@ -19,36 +19,37 @@
       <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.11/resource_managed/test" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
       <excludeFolder url="file://$MODULE_DIR$/../../target/resolution-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/specs2-reports" />
       <excludeFolder url="file://$MODULE_DIR$/../../target/streams" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: com.chuusai:shapeless_2.11:2.3.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.typelevel:macro-compat_2.11:1.1.1:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-matcher_2.11:3.8.5:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-core_2.11:3.8.5:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-common_2.11:3.8.5:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-codata_2.11:3.8.5:jar" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="SBT: org.scoverage:scalac-scoverage-runtime_2.11:1.1.1:jar" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="SBT: org.scoverage:scalac-scoverage-plugin_2.11:1.1.1:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.scalaz:scalaz-effect_2.11:7.2.6:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.scalaz:scalaz-core_2.11:7.2.6:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.scalaz:scalaz-concurrent_2.11:7.2.6:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang.modules:scala-xml_2.11:1.0.5:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.11.8:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.mapdb:mapdb:3.0.1:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.mapdb:elsa:3.0.0-M5:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.jetbrains.kotlin:kotlin-stdlib:1.0.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.jetbrains.kotlin:kotlin-runtime:1.0.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.eclipse.collections:eclipse-collections-forkjoin:7.1.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.eclipse.collections:eclipse-collections-api:7.1.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.eclipse.collections:eclipse-collections:7.1.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: net.jpountz.lz4:lz4:1.3.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: net.jcip:jcip-annotations:1.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: jline:jline:2.14.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.persist:persist-json_2.11:1.1.3:jar" level="project" />
     <orderEntry type="library" name="SBT: com.google.guava:guava:19.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.persist:persist-json_2.11:1.1.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: jline:jline:2.14.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.jcip:jcip-annotations:1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: net.jpountz.lz4:lz4:1.3.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.collections:eclipse-collections:7.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.collections:eclipse-collections-api:7.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.collections:eclipse-collections-forkjoin:7.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.jetbrains.kotlin:kotlin-runtime:1.0.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.jetbrains.kotlin:kotlin-stdlib:1.0.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.mapdb:elsa:3.0.0-M5:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.mapdb:mapdb:3.0.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.11.8:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang.modules:scala-xml_2.11:1.0.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scalaz:scalaz-concurrent_2.11:7.2.6:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scalaz:scalaz-core_2.11:7.2.6:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scalaz:scalaz-effect_2.11:7.2.6:jar" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="SBT: org.scoverage:scalac-scoverage-plugin_2.11:1.1.1:jar" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="SBT: org.scoverage:scalac-scoverage-runtime_2.11:1.1.1:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-codata_2.11:3.8.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-common_2.11:3.8.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-core_2.11:3.8.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.specs2:specs2-matcher_2.11:3.8.5:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.typelevel:macro-compat_2.11:1.1.1:jar" level="project" />
   </component>
 </module>
