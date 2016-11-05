@@ -94,6 +94,22 @@ class TestSimplify extends mutable.Specification {
     simplify(t5) shouldEqual Int3(18)
   }
 
+  "subtract zero" >> {
+    val t1 = Subtract3(Name3("b"), Int3(0)) // b - 0 = b
+    simplify(t1) shouldEqual Name3("b")
+  }
+
+  "subtract same simple" >> {
+    val t1 = Subtract3(Name3("b"), Name3("b")) // b - b = 0
+    simplify(t1) shouldEqual Int3(0)
+  }
+
+  "subtract fractions" >> {
+    val t1 = Divide3(Name3("a"), Name3("b")) // a/b
+    val t2 = Divide3(Name3("a"), Name3("b")) // a/b
+    simplify(Subtract3(t1, t2)) shouldEqual Int3(0) // a/b - a/b = 0
+  }
+
   "subtractEqual" >> {
     val t1 = Divide3(Name3("a"), Name3("b")) // a/b
     val t2 = Divide3(Name3("a"), Add3(Name3("b"), Int3(0))) // a/(b+0) = a/b
@@ -104,7 +120,6 @@ class TestSimplify extends mutable.Specification {
     val t1 = Divide3(Name3("a"), Name3("b")) // a/b
     val t2 = Divide3(Name3("a"), Add3(Name3("b"), Int3(0))) // a/(b+0)
     simplify(Divide3(t1, t2)) shouldEqual Int3(1) // a/b * b/a = 1
-
   }
 
   "testIf" >> {
@@ -114,19 +129,17 @@ class TestSimplify extends mutable.Specification {
       (simplify(t2) shouldEqual Name3("a"))
   }
 
-  "testDist+" >> {
-    val t1 = Add3(Multiply3(Name3("a"), Int3(5)), Multiply3(Name3("a"), Int3(3)))
-    val t2 = Multiply3(Name3("a"), Int3(8))
+  "testDist plus" >> {
+    val t1 = Add3(Multiply3(Name3("a"), Int3(5)), Multiply3(Name3("a"), Int3(3))) // 5a+3a
+    val t2 = Multiply3(Name3("a"), Int3(8)) // 8a
     simplify(t1) shouldEqual t2
   }
 
-  "testDist-" >> {
+  "testDist minus" >> {
     val t1 = Subtract3(Multiply3(Name3("a"), Int3(5)), Multiply3(Name3("a"), Int3(3)))
     val t2 = Multiply3(Name3("a"), Int3(2))
     simplify(t1) shouldEqual t2
   }
-
-
 
   "multiply1" >> {
     val t1 = Multiply3(Name3("b"), Int3(1))
